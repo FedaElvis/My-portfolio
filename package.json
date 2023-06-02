@@ -1,0 +1,20 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "naive-ui": "^2.34.2",
+    "vfonts": "^0.0.3",
+    "vite": "^3.2.4"
+  }
+}
