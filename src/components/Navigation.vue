@@ -175,8 +175,7 @@ li{
   max-width: 100%;
   /* font-family: cursive; */
   color: black;
-  /* height: 100%;
-    width: 100%;*/
+  
 }
 
 @media only screen and (max-width: 640px) {
