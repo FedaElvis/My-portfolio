@@ -2,7 +2,7 @@
   <div class="content">
     <nav>
       <div class="header">
-        <h2 class="first-el">Feda Elvis</h2>
+        <h2 class="first-el">FedelCodes</h2>
       </div>
 
       <div class="mobile-menu" @click="showMenu">
@@ -117,19 +117,18 @@ nav ul {
 }
 
 
-a:hover{
+li:hover{
   background: #34D399;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+  
 }
 
-/*li {
-  display: inline;
-  line-height: 80px;
-  margin: 0 5px;
-  border-radius: 5px;
-  
-}*/
+
 
 li{
+  font-size: 17px;
   background-color: #23273B;
   margin: 0px;
   padding: 2px;
@@ -137,6 +136,7 @@ li{
 
 .btns:hover {
   transition: 0.5s;
+  
   cursor: grab;
 }
 
@@ -220,13 +220,13 @@ li{
 
   .btns {
     width: 100%;
-    
+    padding: 5px;
   }
 
   .btns:hover {
-  color: green;
-  transition: 0.5s;
-  cursor: grab;
+  /* color: green; */
+  /* transition: 0.5s; */
+  /* cursor: grab; */
    
 }
 }

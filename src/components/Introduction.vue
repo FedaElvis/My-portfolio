@@ -2,16 +2,16 @@
   <div id="Home" class="container1">
     <div class="first-bk">
       <p class="second-el">Software Developer</p>
-      <h1>I am Feda Elvis</h1>
-      <H4>I am a passionate software designer with 3+ years of experience</H4>
-      <h4>Accra - Ghana/Remote</h4>
+      <h1>I am Feda Elvis.</h1>
+      <H2>I am a passionate software designer with 2+ years of experience.</H2>
+      <h3>Accra - Ghana/Remote</h3>
       <button class="btn-1">My Portfolio</button>
       <button class="btn-2">MY CV</button>
 
       <div class="container2">
-        <h1>3+</h1>
-        <h5>years</h5>
-        <h5>Experience</h5>
+        <h1 class="date">2+</h1>
+        <h3 class="t">years</h3>
+        <h3 class="t">Experience</h3>
       </div>
     </div>
     <div class="main-img">
@@ -42,15 +42,23 @@
 .container2 {
   display: flex;
 }
+.t{
+  color: #34d399;
+}
 .main-img {
   /* position: absolute; */
   right: 0;
   top: 0px;
 }
 
+.date{
+  font-size: 40px;
+  
+}
+
 .second-el {
   background-color: #34d399;
-  font-size: larger;
+  font-size: 30px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -75,23 +83,31 @@
   color: white;
   background-color: aqua;
   font-weight: bold;
-  padding-top: 00.25rem;
-  padding-bottom: 00.25rem;
+  font-size: 20px;
+  /* padding-top: 00.25rem;
+  padding-bottom: 00.25rem; */
+  padding: 10px;
   background-color: #23263a;
-  border: 2px solid green;
-  border-style: ridge;
-  border-radius: 10px;
+  border: 4px solid green;
+  /* border-style: ridge; */
+  border-radius: 5px;
 }
 
 .btn-2 {
-  color: green;
+  color: rgb(7, 173, 7);
   font-weight: bold;
-  padding-top: 00.25rem;
-  padding-bottom: 00.25rem;
-  background-color: #374151;
+  /* padding-top: 00.25rem;
+  padding-bottom: 00.25rem; */
+  padding: 9px;
+  background-color: #384a64;
   margin-left: 20px;
   border-radius: 10px;
   border: none;
+  font-size: 20px;
+}
+
+.btn-2:hover{
+opacity: 0.6;
 }
 
 .first-bk {
